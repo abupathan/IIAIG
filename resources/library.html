@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resource Library – International Institute of AI Governance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Neutral, template-style Resource Library layout for organizing AI governance-related materials. Demonstrates how to structure categories, search, filters, versioned resources and a future-ready view for the International Institute of AI Governance (IIAIG) website."
+  />
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+  />
+
+  <!-- Shared Theme -->
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <!-- Dynamic Navbar (global, loaded via main.js) -->
+  <div id="navbar-container"></div>
+
+  <main>
+    <!-- HERO: RESOURCE LIBRARY -->
+    <section class="hero-section hero-section--inner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="hero-kicker">
+              <i class="bi bi-journal-richtext" aria-hidden="true"></i>
+              Resources · Resource Library
+            </div>
+            <h1 class="hero-title">
+              AI governance <span class="highlight">resource library</span> (template)
+            </h1>
+            <p class="hero-subtitle">
+              This page presents a structured, neutral template for a Resource Library that organizes AI
+              governance-related materials by theme, type and audience. It illustrates how search, filters and
+              resource listings can be designed for a future-ready environment. It does not itself confirm
+              the existence, status or recognition of any specific document and does <strong>not</strong> provide
+              legal, regulatory, immigration, tax, investment or employment advice.
+            </p>
+          </div>
+          <div class="col-lg-5 mt-4 mt-lg-0">
+            <div class="hero-panel">
+              <div class="hero-panel-title">
+                How to use this library layout
+              </div>
+              <ul class="list-unstyled mb-3 small text-secondary">
+                <li class="mb-2 d-flex align-items-start gap-2">
+                  <i class="bi bi-info-circle" aria-hidden="true"></i>
+                  <span>
+                    The sections, tables and cards below are <strong>design templates</strong> that show how AI
+                    governance resources might be organized on a professional institute website.
+                  </span>
+                </li>
+                <li class="mb-2 d-flex align-items-start gap-2">
+                  <i class="bi bi-collection" aria-hidden="true"></i>
+                  <span>
+                    Replace placeholder titles and descriptions with verified, up-to-date materials before using this
+                    layout in a live environment.
+                  </span>
+                </li>
+                <li class="mb-2 d-flex align-items-start gap-2">
+                  <i class="bi bi-balance-scale" aria-hidden="true"></i>
+                  <span>
+                    Treat resources as <strong>informational</strong>. They do not replace laws, regulations,
+                    contracts, institutional policies or decisions by employers, universities or regulators.
+                  </span>
+                </li>
+              </ul>
+              <a href="#categories" class="btn btn-outline-light btn-sm me-2">
+                View resource categories
+              </a>
+              <a href="#library-search" class="btn btn-hero-primary btn-sm text-white">
+                Explore library template
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: RESOURCE CATEGORIES -->
+    <section id="categories" class="section-padding">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Structure</div>
+            <h2 class="section-heading">Conceptual categories in the Resource Library</h2>
+            <p class="section-subtitle">
+              The cards below outline neutral categories that can be used to organize AI governance resources.
+              They are descriptive and do not indicate that specific documents exist under each heading.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="card pathway-card h-100">
+              <div class="card-body">
+                <div class="pathway-pill">
+                  <i class="bi bi-mortarboard" aria-hidden="true"></i>
+                  Certification &amp; curriculum
+                </div>
+                <p class="small text-muted mt-2 mb-0">
+                  Conceptual outlines, domains and orientation notes for AI governance certifications, learning paths
+                  and curriculum integration – without making recognition or accreditation claims.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card pathway-card h-100">
+              <div class="card-body">
+                <div class="pathway-pill">
+                  <i class="bi bi-diagram-3" aria-hidden="true"></i>
+                  Governance &amp; standards
+                </div>
+                <p class="small text-muted mt-2 mb-0">
+                  Framework descriptions, risk typologies, control families and practice notes that help structure
+                  AI governance programs in organizations and institutions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card pathway-card h-100">
+              <div class="card-body">
+                <div class="pathway-pill">
+                  <i class="bi bi-tools" aria-hidden="true"></i>
+                  Templates &amp; checklists
+                </div>
+                <p class="small text-muted mt-2 mb-0">
+                  Non-binding templates such as RACI examples, risk register fields, model overview sheets or
+                  governance checklists, intended for adaptation and internal review.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card pathway-card h-100">
+              <div class="card-body">
+                <div class="pathway-pill">
+                  <i class="bi bi-collection-play" aria-hidden="true"></i>
+                  Learning &amp; reference
+                </div>
+                <p class="small text-muted mt-2 mb-0">
+                  Slide decks, primers, case sketches and reading lists that introduce AI governance concepts and
+                  support ongoing professional development.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="small text-muted mt-4 mb-0">
+          Institutions can adapt these categories, add new ones or merge related groups depending on how their
+          materials are curated and governed.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: LIBRARY SEARCH & FILTER UI TEMPLATE -->
+    <section id="library-search" class="section-padding strip-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Access</div>
+            <h2 class="section-heading">Resource Library search &amp; filter (template UI)</h2>
+            <p class="section-subtitle">
+              The form and layout below show how visitors could search and filter the Resource Library. All controls
+              are displayed in <strong>disabled</strong> mode here to signal that this is a design mock-up, not a
+              live search engine.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-8">
+            <div class="card shadow-sm mb-4">
+              <div class="card-body">
+                <h3 class="h6 mb-3">
+                  Find a resource (template – controls disabled)
+                </h3>
+                <form onsubmit="event.preventDefault();">
+                  <div class="mb-3">
+                    <label for="resSearch" class="form-label small fw-semibold">
+                      Keyword search
+                    </label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="bi bi-search"></i></span>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="resSearch"
+                        placeholder='e.g., "AI risk register" or "practice note"'
+                        disabled
+                      />
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <label for="resType" class="form-label small fw-semibold">
+                        Resource type
+                      </label>
+                      <select id="resType" class="form-select" disabled>
+                        <option selected>Any (template)</option>
+                        <option>Framework / standard (orientation)</option>
+                        <option>Template / checklist</option>
+                        <option>Guide / practice note</option>
+                        <option>Slide deck / learning asset</option>
+                      </select>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                      <label for="resAudience" class="form-label small fw-semibold">
+                        Primary audience
+                      </label>
+                      <select id="resAudience" class="form-select" disabled>
+                        <option selected>Any (template)</option>
+                        <option>Practitioners &amp; risk teams</option>
+                        <option>University / academic</option>
+                        <option>Enterprise leadership</option>
+                        <option>Students &amp; early-career</option>
+                      </select>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                      <label for="resDomain" class="form-label small fw-semibold">
+                        Theme / domain
+                      </label>
+                      <select id="resDomain" class="form-select" disabled>
+                        <option selected>Any (template)</option>
+                        <option>AI governance &amp; oversight</option>
+                        <option>Risk &amp; controls</option>
+                        <option>Ethics &amp; human rights</option>
+                        <option>Education &amp; curriculum</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="resLanguage" class="form-label small fw-semibold">
+                        Language
+                      </label>
+                      <select id="resLanguage" class="form-select" disabled>
+                        <option selected>All (template)</option>
+                        <option>English</option>
+                        <option>Other (placeholder)</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="resVersion" class="form-label small fw-semibold">
+                        Version / recency
+                      </label>
+                      <select id="resVersion" class="form-select" disabled>
+                        <option selected>Show latest versions (template)</option>
+                        <option>Include previous versions</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center mt-3">
+                    <div class="d-flex gap-2">
+                      <button type="submit" class="btn btn-hero-primary text-white btn-sm" disabled>
+                        Apply filters (template only)
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary btn-sm" disabled>
+                        Reset
+                      </button>
+                    </div>
+                    <span class="small text-muted">
+                      All controls disabled · illustrative layout
+                    </span>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <h3 class="h6 mb-3">
+                  Example filter chips (for live implementation)
+                </h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge bg-light text-dark border">
+                    Type: Practice note
+                  </span>
+                  <span class="badge bg-light text-dark border">
+                    Audience: Practitioners
+                  </span>
+                  <span class="badge bg-light text-dark border">
+                    Theme: Risk &amp; controls
+                  </span>
+                  <span class="badge bg-light text-dark border">
+                    Version: Latest only
+                  </span>
+                </div>
+                <p class="small text-muted mt-3 mb-0">
+                  In a live system, visitors could adjust filters and see results update with clear version
+                  information and download options, subject to access rules and terms of use.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h3 class="h6 mb-3">
+                  Principles for structuring an AI governance library
+                </h3>
+                <ul class="small text-muted ps-3 mb-0">
+                  <li class="mb-1">
+                    Group resources by <strong>purpose</strong> (orientation, guidance, templates, learning), not
+                    by product marketing.
+                  </li>
+                  <li class="mb-1">
+                    Provide a clear <strong>summary and limitation note</strong> for each resource, explaining what
+                    it can and cannot do.
+                  </li>
+                  <li class="mb-1">
+                    Use <strong>version identifiers</strong> and change logs, particularly for frequently updated
+                    guidance.
+                  </li>
+                  <li class="mb-1">
+                    Indicate intended <strong>audience</strong> and <strong>maturity level</strong> where possible
+                    (intro, intermediate, advanced).
+                  </li>
+                  <li class="mb-1">
+                    Prioritize accessibility: concise titles, descriptive metadata and readable formats.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: FEATURED COLLECTIONS (TEMPLATE CARDS) -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Collections</div>
+            <h2 class="section-heading">Template featured collections in the library</h2>
+            <p class="section-subtitle">
+              The cards below demonstrate how themed collections of resources could be highlighted. All titles and
+              descriptions are placeholders and should be replaced with real collections when available.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 news-card">
+              <div class="card-body d-flex flex-column">
+                <div class="small text-uppercase text-muted mb-1">
+                  Collection · Template
+                </div>
+                <h3 class="h6 card-title">
+                  Foundations of AI Governance – Orientation Pack
+                </h3>
+                <p class="card-text small text-muted flex-grow-1">
+                  Example bundle including an AI governance overview note, conceptual role map, sample operating
+                  model outline and introductory slide deck. Replace with actual documents and links in a live
+                  library.
+                </p>
+                <ul class="small text-muted ps-3 mb-3">
+                  <li>Audience: Cross-functional stakeholders</li>
+                  <li>Level: Introductory</li>
+                  <li>Formats: PDF, slide deck (template)</li>
+                </ul>
+                <div class="mt-auto d-flex flex-wrap gap-2">
+                  <span class="badge bg-light text-dark border">Governance</span>
+                  <span class="badge bg-light text-dark border">Orientation</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 news-card">
+              <div class="card-body d-flex flex-column">
+                <div class="small text-uppercase text-muted mb-1">
+                  Collection · Template
+                </div>
+                <h3 class="h6 card-title">
+                  Human-in-the-loop (HITL) Oversight Templates
+                </h3>
+                <p class="card-text small text-muted flex-grow-1">
+                  Example collection of templates that might include HITL decision logs, escalation pathways and
+                  documentation patterns. Provided here as a structural example, not as actual tools.
+                </p>
+                <ul class="small text-muted ps-3 mb-3">
+                  <li>Audience: Product, risk, operations teams</li>
+                  <li>Level: Intermediate</li>
+                  <li>Formats: Checklists, forms (template)</li>
+                </ul>
+                <div class="mt-auto d-flex flex-wrap gap-2">
+                  <span class="badge bg-light text-dark border">HITL</span>
+                  <span class="badge bg-light text-dark border">Templates</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100 news-card">
+              <div class="card-body d-flex flex-column">
+                <div class="small text-uppercase text-muted mb-1">
+                  Collection · Template
+                </div>
+                <h3 class="h6 card-title">
+                  AI Governance in Education &amp; Universities
+                </h3>
+                <p class="card-text small text-muted flex-grow-1">
+                  Example set of resources that might include curriculum integration notes, sample module outlines
+                  and governance roles in academic contexts. All content here is illustrative.
+                </p>
+                <ul class="small text-muted ps-3 mb-3">
+                  <li>Audience: Deans, program chairs, faculty</li>
+                  <li>Level: Mixed</li>
+                  <li>Formats: Guides, case sketches (template)</li>
+                </ul>
+                <div class="mt-auto d-flex flex-wrap gap-2">
+                  <span class="badge bg-light text-dark border">Universities</span>
+                  <span class="badge bg-light text-dark border">Curriculum</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <p class="small text-muted mt-4 mb-0">
+          When converting these placeholders into live collections, ensure that each resource is clearly labeled
+          with its source, version, publication date and limitations.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: TABULAR INDEX TEMPLATE -->
+    <section class="section-padding strip-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Index</div>
+            <h2 class="section-heading">Tabular template for Resource Library index</h2>
+            <p class="section-subtitle">
+              The table below is a generic template for listing resources in a compact index. Each row is a
+              placeholder and should be replaced with actual items in a live environment.
+            </p>
+          </div>
+        </div>
+
+        <div class="table-responsive shadow-sm rounded-3">
+          <table class="table table-bordered align-middle small mb-0">
+            <thead class="table-light">
+              <tr>
+                <th scope="col">Title (placeholder)</th>
+                <th scope="col">Type</th>
+                <th scope="col">Primary audience</th>
+                <th scope="col">Theme / domain</th>
+                <th scope="col">Version</th>
+                <th scope="col">Format</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>“AI Governance Overview – Conceptual Orientation Note”</td>
+                <td>Guide / practice note</td>
+                <td>Cross-functional stakeholders</td>
+                <td>AI governance &amp; oversight</td>
+                <td>v1.0 (template)</td>
+                <td>PDF</td>
+              </tr>
+              <tr>
+                <td>“Template: AI System Risk Register – Example Fields”</td>
+                <td>Template / checklist</td>
+                <td>Risk &amp; compliance teams</td>
+                <td>Risk &amp; controls</td>
+                <td>v0.9 (template)</td>
+                <td>Spreadsheet</td>
+              </tr>
+              <tr>
+                <td>“Introducing Human-in-the-loop AI Governance – Slide Deck”</td>
+                <td>Slide deck / learning asset</td>
+                <td>Product, operations, governance</td>
+                <td>HITL oversight</td>
+                <td>v1.1 (template)</td>
+                <td>Slides / PDF</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="small text-muted mt-4 mb-0">
+          In production, the index could be paginated and linked to detailed resource pages, with filters synchronized
+          between the table and the search controls above.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: USAGE & LIMITATIONS -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Usage</div>
+            <h2 class="section-heading">How to use Resource Library materials responsibly</h2>
+            <p class="section-subtitle">
+              AI governance resources can help structure thinking and support dialogue, but they must be interpreted
+              carefully and integrated into local governance, legal and ethical frameworks.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+          <div class="col-md-6">
+            <div class="card why-card h-100 border-success-subtle">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">Appropriate uses of library resources</h5>
+                <ul class="small text-muted ps-3 mb-0">
+                  <li class="mb-1">
+                    As <strong>orientation materials</strong> for teams learning about AI governance, risk and ethics.
+                  </li>
+                  <li class="mb-1">
+                    As <strong>starting points</strong> for internal frameworks, checklists and governance processes.
+                  </li>
+                  <li class="mb-1">
+                    As <strong>discussion tools</strong> in workshops, training sessions and stakeholder engagements.
+                  </li>
+                  <li class="mb-1">
+                    As references for aligning terminology and expectations across functions.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card why-card h-100 border-danger-subtle">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-x-octagon" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">What the library does not replace</h5>
+                <ul class="small text-muted ps-3 mb-0">
+                  <li class="mb-1">
+                    It does <strong>not</strong> replace legal, regulatory, immigration, tax or HR advice tailored to
+                    specific cases.
+                  </li>
+                  <li class="mb-1">
+                    It does <strong>not</strong> guarantee recognition, accreditation, licensing or visa outcomes in
+                    any jurisdiction.
+                  </li>
+                  <li class="mb-1">
+                    It does <strong>not</strong> substitute for internal risk assessments, ethics reviews or
+                    board-level oversight.
+                  </li>
+                  <li class="mb-1">
+                    It does <strong>not</strong> function as an official regulatory or licensure library.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="small text-muted mb-0">
+          When using any resource to inform decisions with significant legal, safety or ethical implications, treat it
+          as context and ensure that qualified experts and decision-makers are consulted.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: VERSIONING & CHANGE CONTROL TEMPLATE -->
+    <section class="section-padding strip-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Versioning</div>
+            <h2 class="section-heading">Template for resource versioning &amp; change log</h2>
+            <p class="section-subtitle">
+              The rows below offer a conceptual example of how a Resource Library change log can track updates to key
+              materials, supporting transparency and good governance.
+            </p>
+          </div>
+        </div>
+
+        <div class="table-responsive shadow-sm rounded-3">
+          <table class="table table-bordered align-middle small mb-0">
+            <thead class="table-light">
+              <tr>
+                <th scope="col">Resource title (placeholder)</th>
+                <th scope="col">Version</th>
+                <th scope="col">Date</th>
+                <th scope="col">Change summary (template)</th>
+                <th scope="col">Impact</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>AI Governance Overview – Conceptual Orientation Note</td>
+                <td>v1.1</td>
+                <td>[YYYY-MM-DD]</td>
+                <td>
+                  Clarified scope and limitations, updated examples and terminology for AI lifecycle stages.
+                </td>
+                <td>
+                  Improves clarity for new readers; no change to underlying governance responsibilities.
+                </td>
+              </tr>
+              <tr>
+                <td>Template: AI System Risk Register – Example Fields</td>
+                <td>v1.0</td>
+                <td>[YYYY-MM-DD]</td>
+                <td>
+                  Added fields for model lineage, data provenance and human oversight checkpoints; aligned with new
+                  practice note.
+                </td>
+                <td>
+                  Encourages richer risk documentation; organizations should adapt fields to local context.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="small text-muted mt-4 mb-0">
+          In a live system, a governed editorial process should approve resource updates, and the change log should
+          be kept synchronized with underlying document repositories.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: FUTURE-READY KNOWLEDGE ECOSYSTEMS -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Future-Ready View</div>
+            <h2 class="section-heading">From static library to AI governance knowledge ecosystem</h2>
+            <p class="section-subtitle">
+              Over the 2020s and 2030s, AI governance libraries are likely to evolve from static repositories into
+              more dynamic, machine-readable and interoperable knowledge ecosystems. The ideas below are neutral and
+              forward-looking – not commitments, product roadmaps or regulatory forecasts.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+          <div class="col-md-4">
+            <div class="card why-card h-100">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-diagram-3" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">Semantic tagging &amp; knowledge graphs</h5>
+                <p class="text-muted small mb-0">
+                  Libraries may increasingly use rich metadata and knowledge graphs to connect resources to AI
+                  lifecycle stages, control families, risk types and roles. This can help practitioners navigate
+                  from a specific question to the most relevant guidance, while still keeping human interpretation
+                  central to decisions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card why-card h-100">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-robot" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">AI-assisted discovery with human oversight</h5>
+                <p class="text-muted small mb-0">
+                  Search and recommendation tools may use AI to summarize and suggest resources, but results will still
+                  need clear citations, version references and limitation notes. AI-assisted discovery should support,
+                  not replace, professional judgment and institution-specific governance processes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card why-card h-100">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-people-fill" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">Communities, annotations &amp; feedback loops</h5>
+                <p class="text-muted small mb-0">
+                  Future AI governance libraries may incorporate community annotations, structured feedback and
+                  periodically updated case sketches, while preserving a clear boundary between formally governed
+                  guidance and informal peer commentary or examples.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="small text-muted mb-0">
+          Any move toward more automated or interconnected knowledge ecosystems should maintain clarity about which
+          materials are authoritative, how they are governed and who is accountable for decisions that rely on them.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: NEXT STEPS -->
+    <section class="section-padding strip-section">
+      <div class="container text-center">
+        <div class="row justify-content-center mb-4">
+          <div class="col-lg-8">
+            <div class="section-kicker">Next Steps</div>
+            <h2 class="section-heading">Using this Resource Library as a blueprint</h2>
+            <p class="section-subtitle">
+              Treat this page as a <strong>blueprint</strong> for building an AI governance Resource Library: a single,
+              structured place for orientation materials, templates and learning assets. When implemented live, ensure
+              that each resource is governed, dated, versioned and aligned with your institution’s legal, ethical and
+              AI governance frameworks.
+            </p>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-center gap-3 mb-3">
+          <a href="/resources/" class="btn btn-outline-secondary">
+            View brochures &amp; downloads
+          </a>
+          <a href="/standards/" class="btn btn-outline-secondary">
+            Explore AI governance standards pages
+          </a>
+          <a href="/legal/contact.html" class="btn btn-hero-primary text-white">
+            Contact about library content
+          </a>
+        </div>
+
+        <p class="small text-muted mb-0">
+          If you are curating a real-world AI governance library, involve governance, legal, academic and practitioner
+          stakeholders in selecting, reviewing and updating materials, and periodically reassess how the library
+          supports responsible AI practice.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Dynamic Footer (global, loaded via main.js) -->
+  <div id="footer-container"></div>
+
+  <!-- Shared JS -->
+  <script src="/main.js"></script>
+</body>
+</html>
