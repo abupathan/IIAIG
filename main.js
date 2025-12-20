@@ -66,17 +66,18 @@ function loadFragment(containerId, filePath, afterLoadCallback) {
 document.addEventListener("DOMContentLoaded", () => {
 
   // Load navbar.html
-  loadFragment("navbar-container", "navbar.html", () => {
+  loadFragment("navbar-container", "../navbar.html", () => {
     ensureBootstrapLoaded(() => {
       initBootstrapDropdowns();
     });
   });
 
   // Load footer.html
-  loadFragment("footer-container", "footer.html", () => {
+  loadFragment("footer-container", "../footer.html", () => {
     // Auto-update year in footer
     const yearSpan = document.getElementById("yearSpan");
     if (yearSpan) yearSpan.textContent = new Date().getFullYear();
   });
 
 });
+
