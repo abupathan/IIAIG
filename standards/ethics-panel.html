@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI-HITL Governance &amp; Ethics Panel – International Institute of AI Governance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Conceptual orientation on an AI-HITL Governance & Ethics Panel – a neutral view of how human-in-the-loop (HITL) governance and ethics oversight bodies may be structured through the 2020s and 2030s. Not a regulatory body, not legal advice, and not a description of any specific IIAIG panel."
+  />
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+  />
+
+  <!-- Shared Theme -->
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+  <!-- Dynamic Navbar -->
+  <div id="navbar-container"></div>
+
+  <main>
+    <!-- HERO: AI-HITL GOVERNANCE & ETHICS PANEL (CONCEPTUAL) -->
+    <section class="hero-section hero-section--inner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="hero-kicker">
+              <i class="bi bi-people-fill" aria-hidden="true"></i>
+              Standards · AI-HITL Governance &amp; Ethics Panel (Conceptual Orientation)
+            </div>
+            <h1 class="hero-title">
+              Conceptual view of an <span class="highlight">AI-HITL Governance &amp; Ethics Panel</span>
+            </h1>
+            <p class="hero-subtitle">
+              This page describes, in neutral terms, how an AI human-in-the-loop (HITL) governance &amp; ethics panel
+              can be structured as an internal advisory and oversight mechanism through the 2020s and 2030s. It is not
+              a regulatory body, not a clinical ethics committee, not legal advice, and not a description of any
+              specific IIAIG panel or mandate.
+            </p>
+          </div>
+          <div class="col-lg-5 mt-4 mt-lg-0">
+            <div class="hero-panel">
+              <div class="hero-panel-title">
+                How to interpret this page
+              </div>
+              <ul class="list-unstyled mb-3 small text-secondary">
+                <li class="mb-2 d-flex align-items-start gap-2">
+                  <i class="bi bi-info-circle" aria-hidden="true"></i>
+                  <span>
+                    Provides a conceptual blueprint for an AI-HITL governance &amp; ethics panel that organizations
+                    or universities may adapt for internal use.
+                  </span>
+                </li>
+                <li class="mb-2 d-flex align-items-start gap-2">
+                  <i class="bi bi-x-circle" aria-hidden="true"></i>
+                  <span>
+                    Does <strong>not</strong> grant any authority, accreditation or regulatory standing to IIAIG
+                    or any other institution.
+                  </span>
+                </li>
+                <li class="mb-2 d-flex align-items-start gap-2">
+                  <i class="bi bi-balance-scale" aria-hidden="true"></i>
+                  <span>
+                    Emphasizes that final decisions remain with boards, management and legally constituted bodies
+                    in each jurisdiction.
+                  </span>
+                </li>
+              </ul>
+              <a href="#mandate" class="btn btn-outline-light btn-sm me-2">
+                Mandate &amp; boundaries
+              </a>
+              <a href="#composition" class="btn btn-hero-primary btn-sm text-white">
+                Composition &amp; processes
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: WHAT IS AI-HITL & WHY A PANEL? -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Overview</div>
+            <h2 class="section-heading">
+              AI-HITL and the need for structured ethics &amp; governance dialogue
+            </h2>
+            <p class="section-subtitle">
+              “Human-in-the-loop” (HITL) arrangements aim to ensure that human judgment remains central in AI-enabled
+              decisions, particularly when those decisions affect people, rights or critical outcomes. An AI-HITL
+              Governance &amp; Ethics Panel can provide a structured forum for reflecting on difficult cases, policy
+              questions and systemic risks that arise in such contexts, including as AI capabilities and regulations
+              evolve through the 2030s.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card why-card h-100">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-person-gear" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">Supporting meaningful human judgment</h5>
+                <p class="card-text text-muted small mb-0">
+                  HITL does not merely mean “click to approve.” A structured panel can help clarify what meaningful
+                  human oversight should look like for different AI use cases, and how it interacts with ethics,
+                  risk, legal requirements and professional duties – especially in settings where automation levels
+                  may increase over time.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card why-card h-100">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-diagram-3" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">Cross-functional governance</h5>
+                <p class="card-text text-muted small mb-0">
+                  AI-HITL questions typically span product, data science, law, ethics, operations and frontline
+                  practitioners (for example, teachers, clinicians, case workers). A panel offers a cross-functional
+                  meeting place for these perspectives, including – where appropriate – voices for affected groups
+                  and public-interest views.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card why-card h-100">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-shield-lock" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">Learning from edge cases</h5>
+                <p class="card-text text-muted small mb-0">
+                  Not every AI use or incident requires a panel review, but difficult, ambiguous or sensitive
+                  situations can generate learning that improves policies, training and safeguards across the
+                  organization – and can inform future AI governance frameworks, audits and regulatory dialogue.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="small text-muted mt-4 mb-0">
+          This page treats an AI-HITL Governance &amp; Ethics Panel as an internal governance mechanism. It does not
+          duplicate or replace legal duties, regulatory oversight or formally mandated ethics committees (for example,
+          in healthcare or research).
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: MANDATE & BOUNDARIES -->
+    <section id="mandate" class="section-padding strip-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Mandate &amp; Boundaries</div>
+            <h2 class="section-heading">Conceptual mandate of an AI-HITL Governance &amp; Ethics Panel</h2>
+            <p class="section-subtitle">
+              The table below provides a neutral description of what such a panel might do – and, just as importantly,
+              what it would not do. Actual mandates should be formally approved by the relevant institution and aligned
+              with applicable laws and regulations, including AI-specific rules where they exist.
+            </p>
+          </div>
+        </div>
+
+        <div class="table-responsive shadow-sm rounded-3">
+          <table class="table table-bordered align-middle small mb-0">
+            <thead class="table-light">
+              <tr>
+                <th scope="col">Area</th>
+                <th scope="col">Illustrative responsibilities</th>
+                <th scope="col">Illustrative non-responsibilities</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="fw-semibold">Scope of review</th>
+                <td>
+                  Review selected AI-HITL use cases, policies or incidents that raise significant ethical, governance
+                  or risk questions, based on pre-defined triggers or referral criteria.
+                </td>
+                <td>
+                  Does not review every AI decision or project; does not act as a general grievance mechanism or
+                  replace frontline decision making, HR, safety, ombuds or legal channels.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="fw-semibold">Advisory role</th>
+                <td>
+                  Provide written, non-binding recommendations and reflections on cases and policies to management,
+                  boards or academic bodies, highlighting options, trade-offs and ethical considerations.
+                </td>
+                <td>
+                  Does not make final business, academic, clinical or legal decisions; does not assume the role of
+                  a regulator, court or arbitrator.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="fw-semibold">Policy input</th>
+                <td>
+                  Offer feedback on proposed AI-related policies, guidelines, codes of practice and training materials,
+                  particularly where HITL roles, escalation paths and accountability structures are central.
+                </td>
+                <td>
+                  Does not own all policy drafting responsibilities; does not replace formal policy approval routes or
+                  collective bargaining structures where those exist.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="fw-semibold">Learning &amp; escalation</th>
+                <td>
+                  Identify recurring themes, emerging risks and opportunities for improvement, and escalate systemic
+                  concerns to relevant governance bodies.
+                </td>
+                <td>
+                  Does not manage day-to-day incident response or operational risk management; does not override
+                  emergency procedures, whistleblowing channels or legal reporting obligations.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="small text-muted mt-4 mb-0">
+          The precise mandate, reporting lines and authority of any panel must be defined by the institution
+          establishing it, taking into account legal, regulatory and labor frameworks.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: COMPOSITION & INDEPENDENCE -->
+    <section id="composition" class="section-padding">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Composition</div>
+            <h2 class="section-heading">Conceptual composition &amp; independence considerations</h2>
+            <p class="section-subtitle">
+              An effective AI-HITL Governance &amp; Ethics Panel benefits from diverse expertise and a degree of
+              independence, while staying connected to operational realities. The elements below provide a neutral
+              reference point.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+          <div class="col-md-3">
+            <div class="card pathway-card h-100">
+              <div class="card-body">
+                <div class="pathway-pill">
+                  <i class="bi bi-cpu" aria-hidden="true"></i>
+                  Technical &amp; data expertise
+                </div>
+                <p class="small text-muted mb-0">
+                  Members with experience in data science, AI engineering, systems design or safety engineering
+                  who can explain technical aspects, limitations and options in accessible terms for non-technical
+                  members, including anticipated future capabilities.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card pathway-card h-100">
+              <div class="card-body">
+                <div class="pathway-pill">
+                  <i class="bi bi-balance-scale" aria-hidden="true"></i>
+                  Legal, risk &amp; compliance
+                </div>
+                <p class="small text-muted mb-0">
+                  Members familiar with applicable laws, regulations, risk frameworks and compliance expectations
+                  relevant to AI use (for example, privacy, discrimination, safety, sectoral rules), including how
+                  these may evolve over the next decade.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card pathway-card h-100">
+              <div class="card-body">
+                <div class="pathway-pill">
+                  <i class="bi bi-mortarboard" aria-hidden="true"></i>
+                  Ethics, social &amp; domain perspectives
+                </div>
+                <p class="small text-muted mb-0">
+                  Members with expertise in ethics, human rights, social impact or the specific domain (for example,
+                  education, health, justice) where AI-HITL systems are used, including frontline practitioners and,
+                  where appropriate, representatives of affected groups or communities.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card pathway-card h-100">
+              <div class="card-body">
+                <div class="pathway-pill">
+                  <i class="bi bi-people" aria-hidden="true"></i>
+                  Independence &amp; oversight
+                </div>
+                <p class="small text-muted mb-0">
+                  Depending on context, the panel may include members who are not directly responsible for the AI
+                  system under review, and may invite external experts for specific cases, subject to
+                  conflict-of-interest and confidentiality rules and any regulatory constraints.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="small text-muted mb-0">
+          Institutions should define membership criteria, rotation schedules, conflict-of-interest rules and support
+          structures (for example, secretariat functions) consistent with their governance culture and applicable
+          regulations.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: PANEL PROCESSES (INTAKE → REVIEW → OUTPUT) -->
+    <section class="section-padding strip-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Process</div>
+            <h2 class="section-heading">Conceptual process: from intake to recommendation</h2>
+            <p class="section-subtitle">
+              The process diagram below is expressed in tabular form and describes one possible high-level workflow for
+              an AI-HITL Governance &amp; Ethics Panel. It is deliberately generic so that organizations can adapt it to
+              their legal and operational context, and extend it for more advanced AI use cases over time.
+            </p>
+          </div>
+        </div>
+
+        <div class="table-responsive shadow-sm rounded-3">
+          <table class="table table-bordered align-middle small mb-0">
+            <thead class="table-light">
+              <tr>
+                <th scope="col">Stage</th>
+                <th scope="col">Illustrative activities</th>
+                <th scope="col">Key considerations</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="fw-semibold">1. Intake &amp; triage</th>
+                <td>
+                  Receive referrals (for example, from project teams, risk, ethics or academic bodies); log cases;
+                  determine whether they fall within the panel’s scope and priority; classify by risk and impact.
+                </td>
+                <td>
+                  Clear referral criteria; respect for confidentiality; clarity on when issues should instead go to
+                  legal, HR, safety, whistleblowing or other mandated channels; calibrated thresholds for escalation.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="fw-semibold">2. Case preparation</th>
+                <td>
+                  Request a concise case summary and supporting materials from the referring team; identify applicable
+                  policies, frameworks, risk assessments and external obligations; if relevant, seek input from
+                  affected stakeholders.
+                </td>
+                <td>
+                  Avoid excessive documentation; ensure that summaries are understandable to non-technical members;
+                  manage conflicts of interest for panel members; consider data minimization for case materials.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="fw-semibold">3. Panel deliberation</th>
+                <td>
+                  Discuss the case in a structured way, inviting perspectives from technical, legal, risk, ethics and
+                  domain experts; map options, trade-offs and potential mitigations, including implications for
+                  human-in-the-loop roles.
+                </td>
+                <td>
+                  Facilitation to ensure balanced participation; explicit attention to human oversight, accountability,
+                  escalation routes and potential future scenarios; documentation of reasoning at an appropriate level
+                  of detail.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="fw-semibold">4. Recommendations &amp; follow-up</th>
+                <td>
+                  Issue written, non-binding recommendations to the relevant decision-makers; agree follow-up points,
+                  such as future reviews, data on outcomes or triggers for re-escalation.
+                </td>
+                <td>
+                  Clarify that recommendations are advisory; ensure they are shared with appropriate governance bodies;
+                  define how unresolved disagreements or escalation needs are handled; track implementation where
+                  appropriate.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="small text-muted mt-4 mb-0">
+          Organizations may choose to create simplified tracks for lower-risk cases, and reserve full panel deliberations
+          for higher-impact, novel or systemically important situations.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: RELATIONSHIP TO WIDER GOVERNANCE -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Governance</div>
+            <h2 class="section-heading">Positioning the AI-HITL panel within wider governance structures</h2>
+            <p class="section-subtitle">
+              An AI-HITL Governance &amp; Ethics Panel does not operate in isolation. The comparative table below
+              highlights how its conceptual role differs from that of management, boards and legally mandated
+              committees.
+            </p>
+          </div>
+        </div>
+
+        <div class="table-responsive shadow-sm rounded-3">
+          <table class="table table-bordered align-middle small mb-0">
+            <thead class="table-light">
+              <tr>
+                <th scope="col">Body</th>
+                <th scope="col">Primary role (conceptual)</th>
+                <th scope="col">Decision authority</th>
+                <th scope="col">Typical interaction with AI-HITL panel</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="fw-semibold">Management &amp; project owners</th>
+                <td>
+                  Design, approve and operate AI-enabled processes; manage day-to-day risks and allocate resources.
+                </td>
+                <td>
+                  Holds primary responsibility for operational and business decisions, within legal and policy limits.
+                </td>
+                <td>
+                  May seek the panel’s advisory views on difficult cases or policy questions; receives recommendations
+                  but retains final decision authority and accountability.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="fw-semibold">Boards / academic senates</th>
+                <td>
+                  Provide strategic oversight, approve key policies and ensure that significant AI-related risks are
+                  governed appropriately.
+                </td>
+                <td>
+                  Holds ultimate oversight and certain reserved powers, depending on institutional and legal frameworks.
+                </td>
+                <td>
+                  May receive periodic summaries of panel activities, themes and recommendations; may ask the panel for
+                  input on specific issues, subject to formal terms of reference.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="fw-semibold">Legally mandated committees</th>
+                <td>
+                  Address specific legal or regulatory requirements (for example, clinical ethics committees, research
+                  ethics boards, safety committees).
+                </td>
+                <td>
+                  Exercise authority defined by law, regulation or accreditation conditions, where applicable.
+                </td>
+                <td>
+                  Where appropriate, the AI-HITL panel may coordinate with such committees, making clear that it does
+                  not replace or override their formal mandates.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="fw-semibold">AI-HITL Governance &amp; Ethics Panel</th>
+                <td>
+                  Provide cross-functional ethics and governance reflection on selected AI-HITL use cases and policies;
+                  support learning, transparency and continuous improvement of HITL arrangements.
+                </td>
+                <td>
+                  Non-binding, advisory role; no independent regulatory or supervisory powers.
+                </td>
+                <td>
+                  Acts as a consultative body and knowledge hub, helping other governance bodies understand emerging
+                  ethical and human-in-the-loop questions in AI use.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="small text-muted mt-4 mb-0">
+          Institutions should document these relationships clearly in charters, policies or governance manuals to
+          avoid overlaps and gaps.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: FUTURE-READY VIEW -->
+    <section class="section-padding strip-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Future-Ready View</div>
+            <h2 class="section-heading">How AI-HITL panels may evolve through the 2030s</h2>
+            <p class="section-subtitle">
+              As AI systems become more capable and integrated into critical workflows, internal governance mechanisms
+              like AI-HITL panels may also evolve. The cards below present a neutral, forward-looking orientation –
+              not predictions, commitments or regulatory expectations.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+          <div class="col-md-4">
+            <div class="card why-card h-100">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-diagram-3" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">From case-by-case to pattern-oriented</h5>
+                <p class="text-muted small mb-0">
+                  Panels may move from focusing mainly on single cases to identifying patterns across cases –
+                  recurring risk themes, structural issues in HITL design, and signals that existing policies or
+                  training need to be revisited, supported by more systematic tracking of themes over time.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card why-card h-100">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-bar-chart-line" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">More structured evidence &amp; metrics</h5>
+                <p class="text-muted small mb-0">
+                  Without reducing ethics to numbers, panels may use more structured inputs – such as selected
+                  performance, fairness or override metrics – to understand how HITL arrangements perform in practice,
+                  while recognizing the limits of metrics and the importance of qualitative judgment and context.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card why-card h-100">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-people-fill" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">Broader participation &amp; transparency</h5>
+                <p class="text-muted small mb-0">
+                  Where appropriate and lawful, institutions may involve a wider range of perspectives – for example,
+                  student or patient advisory bodies, worker representatives or civil society voices – in how panels
+                  are designed and how their high-level themes are communicated internally or externally.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="small text-muted mb-0">
+          Any such evolution should be guided by institutional governance processes, regulatory developments and
+          engagement with affected communities, and should respect confidentiality, safety and legal constraints.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: ILLUSTRATIVE (FICTIONAL) SCENARIOS -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Illustrative Scenarios</div>
+            <h2 class="section-heading">Example (fictional) AI-HITL panel use cases</h2>
+            <p class="section-subtitle">
+              The scenarios below are fictional. They are provided solely to illustrate the types of questions that an
+              AI-HITL Governance &amp; Ethics Panel might be asked to reflect on. They are not descriptions of actual
+              cases or commitments by IIAIG or any institution.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+          <div class="col-md-4">
+            <div class="card pathway-card h-100">
+              <div class="card-body">
+                <div class="pathway-pill">
+                  <i class="bi bi-mortarboard" aria-hidden="true"></i>
+                  Scenario A – Education HITL support
+                </div>
+                <ul class="small text-muted ps-3 mb-0">
+                  <li class="mb-1">
+                    A school system uses an AI tool to propose differentiated learning pathways, with teachers
+                    retaining final decisions.
+                  </li>
+                  <li class="mb-1">
+                    Concerns arise about subtle bias in recommendations for certain student groups and about teacher
+                    workload in reviewing AI suggestions.
+                  </li>
+                  <li class="mb-1">
+                    The panel reflects on oversight design, transparency to students and families, escalation routes
+                    when teachers disagree with AI suggestions, and how to monitor longer-term impacts.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card pathway-card h-100">
+              <div class="card-body">
+                <div class="pathway-pill">
+                  <i class="bi bi-hospital" aria-hidden="true"></i>
+                  Scenario B – Clinical triage support (conceptual only)
+                </div>
+                <ul class="small text-muted ps-3 mb-0">
+                  <li class="mb-1">
+                    An AI system is proposed to assist clinicians in triage decisions, with final decisions
+                    remaining with clinicians and subject to clinical governance.
+                  </li>
+                  <li class="mb-1">
+                    The panel explores human oversight, documentation of overrides, alignment with existing
+                    clinical ethics and regulatory requirements (noting the need for specialist committees where
+                    required by law), and communication with patients.
+                  </li>
+                  <li class="mb-1">
+                    Recommendations are shared with both management and the formal clinical ethics structures.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card pathway-card h-100">
+              <div class="card-body">
+                <div class="pathway-pill">
+                  <i class="bi bi-bank" aria-hidden="true"></i>
+                  Scenario C – Public sector decision support
+                </div>
+                <ul class="small text-muted ps-3 mb-0">
+                  <li class="mb-1">
+                    A public agency uses AI to assist human case workers in prioritizing cases for review.
+                  </li>
+                  <li class="mb-1">
+                    The panel considers data quality, fairness metrics, documentation of human decisions and the
+                    ability for affected individuals to seek redress or explanations.
+                  </li>
+                  <li class="mb-1">
+                    Findings inform revisions to guidance for case workers and oversight reporting to senior
+                    governance bodies.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="small text-muted mb-0">
+          In all such scenarios, legally required ethics reviews, regulatory approvals and consultation processes
+          remain essential and cannot be replaced by a panel of this type.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: CLARITY – WHAT THIS PAGE DOES / DOES NOT DO -->
+    <section class="section-padding strip-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-9">
+            <div class="section-kicker">Clarity</div>
+            <h2 class="section-heading">
+              What this AI-HITL Governance &amp; Ethics Panel page does – and does not – represent
+            </h2>
+            <p class="section-subtitle">
+              To keep expectations clear, it is important to distinguish conceptual orientation from regulatory
+              authority, accreditation or legal advice.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4 mb-4">
+          <div class="col-md-6">
+            <div class="card why-card h-100 border-success-subtle">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">What this page does</h5>
+                <ul class="small text-muted ps-3 mb-0">
+                  <li class="mb-1">
+                    Provides neutral language and structures for designing an internal AI-HITL Governance &amp; Ethics
+                    Panel.
+                  </li>
+                  <li class="mb-1">
+                    Highlights typical questions about mandate, composition, process and placement within wider
+                    governance.
+                  </li>
+                  <li class="mb-1">
+                    Encourages organizations and universities to think systematically about human-in-the-loop roles
+                    in AI-enabled decisions, today and as AI capabilities grow.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card why-card h-100 border-danger-subtle">
+              <div class="card-body">
+                <div class="icon-circle">
+                  <i class="bi bi-x-octagon" aria-hidden="true"></i>
+                </div>
+                <h5 class="card-title">What this page does not do</h5>
+                <ul class="small text-muted ps-3 mb-0">
+                  <li class="mb-1">
+                    Does <strong>not</strong> establish or describe a specific IIAIG panel, nor confer any regulatory,
+                    supervisory or accreditation authority on IIAIG.
+                  </li>
+                  <li class="mb-1">
+                    Does <strong>not</strong> replace legal advice, regulatory guidance, mandatory ethics committees
+                    or formal grievance and dispute mechanisms.
+                  </li>
+                  <li class="mb-1">
+                    Does <strong>not</strong> create legal, contractual, employment or fiduciary obligations for any
+                    institution or individual.
+                  </li>
+                  <li class="mb-1">
+                    Does <strong>not</strong> guarantee specific outcomes, protections or certifications in any
+                    jurisdiction.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="small text-muted mb-0">
+          Institutions designing AI-HITL governance structures should consult their legal, regulatory, labor and
+          ethics frameworks and seek appropriate professional advice.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION: NEXT STEPS -->
+    <section class="section-padding">
+      <div class="container text-center">
+        <div class="row justify-content-center mb-4">
+          <div class="col-lg-8">
+            <div class="section-kicker">Next Steps</div>
+            <h2 class="section-heading">
+              Using this orientation in your AI-HITL governance work
+            </h2>
+            <p class="section-subtitle">
+              Governance, risk, ethics and academic leaders can use this page as a conceptual reference when designing
+              or refining internal AI-HITL governance &amp; ethics mechanisms, always grounded in their institutional
+              context and applicable laws, and adapted as the AI governance landscape matures.
+            </p>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-center gap-3 mb-3">
+          <a href="/standards/" class="btn btn-outline-secondary">
+            AI governance &amp; risk frameworks
+          </a>
+          <a href="/standards/esg.html" class="btn btn-outline-secondary">
+            ESG &amp; AI governance orientation
+          </a>
+          <a href="/resources/faq.html" class="btn btn-outline-secondary">
+            Read common questions
+          </a>
+          <a href="/legal/contact.html" class="btn btn-hero-primary text-white">
+            Contact IIAIG about governance dialogue
+          </a>
+        </div>
+
+        <p class="small text-muted mb-0">
+          Any concrete implementation of panel structures, mandates or procedures should be formalized through the
+          institution’s existing governance design and approval processes.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Dynamic Footer -->
+  <div id="footer-container"></div>
+
+  <!-- Shared JS -->
+  <script src="/main.js"></script>
+</body>
+</html>
