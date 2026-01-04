@@ -1,2 +1,2 @@
-# IIAIG
-International Institute for AI Governance
+# IIAIGA
+International Institute for AI Governance & Assurance
